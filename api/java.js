@@ -4,3 +4,4 @@ export function getJavaObject(className) {
 export function instantiate(javaObject, ...params) {
   return javaObject._newInstance(...params);
 }
+//
